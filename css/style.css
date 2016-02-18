@@ -1,0 +1,41 @@
+body { background-color:#3D6980; }
+
+.options {
+	position:relative;
+	width:50%;
+	height:40%;
+	margin:auto;
+}
+
+h1 { text-align:center; font-family:Georgia, Serif, "Times New Roman"; color:orange;}
+
+input[type=button] {
+	padding:5px 10px;
+	background-color:#F0F0F0;
+	margin:20px 0;
+	text-decoration:none;
+	width:20%;
+	color:#666;
+	border-radius:20px;
+	border:1px solid black;
+}
+
+input[type=button]:hover { text-decoration:underline; background-color:#8FE3AC; }
+
+input[id=colour] { position:absolute; left:0; }
+input[id=rcolour] { position:absolute; left:25%; }
+input[id=trail] { position:absolute; right:25%; }
+input[id=opacity] { position:absolute; right:0; }
+
+.container {
+	position:relative;
+	top:100px;
+	width:600px;
+	height:600px;
+	border:1px solid black;
+	background-color:white;
+	margin:auto;
+}
+
+.colour { background-color:blue; float:left;}
+
